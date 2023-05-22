@@ -1,0 +1,50 @@
+.nav{
+  border-radius: 70px;
+  background-color: #1fc3c3;
+  align-items: baseline;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 3px solid #000000;
+
+}
+ 
+.moveArrow {
+  animation-name : mymove;
+  animation-iteration-count :infinite;
+  animation-direction :forword;
+  animation-duration : 20s;
+  position: absolute;
+  right:100px;
+  margin-top: 30px;
+}
+
+@keyframes mymove {
+  from {transform: translateX(0px);}
+  
+  to {transform: translateX(-890px)};
+}
+
+.btn-btn-clk{
+  align-items: center;
+  border-radius: 10px;
+ transform:rotateX('angle');
+ position: absolute;
+ right: 100px;
+ margin-top: 10px;
+ width: 120px;
+ height: 30px;
+ border: 3px solid #000000;
+}
+
+
+.circleone {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  border: 3px solid #000000;
+  margin-left: 20px;
+  
+}
